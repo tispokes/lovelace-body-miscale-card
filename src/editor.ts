@@ -55,6 +55,10 @@ export class BoilerplateCardEditor extends LitElement implements LovelaceCardEdi
     return this._config?.show_attributes || false;
   }
 
+  get show_datetime_last(): boolean {
+    return this._config?.show_datetime_last || false;
+  }
+
   get _show_body(): boolean {
     if (this._show_toolbar === false) {
       return false;
