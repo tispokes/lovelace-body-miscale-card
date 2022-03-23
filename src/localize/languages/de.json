@@ -20,7 +20,8 @@
     "impedance: ": "Zusammensetzung: ",
     "height: ": "Körpergröße: ",
     "age: ": "Alter: ",
-    "gender: ": "Geschlecht: "
+    "gender: ": "Geschlecht: ",
+    "last_update: ": "Letzte Messung: "
   },
   "attributes_value": {
     "male": "männl.",
