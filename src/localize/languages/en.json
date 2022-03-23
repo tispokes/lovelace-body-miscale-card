@@ -28,7 +28,8 @@
     "impedance: ": "Impedance: ",
     "height: ": "Height: ",
     "age: ": "Age: ",
-    "gender: ": "Gender: "
+    "gender: ": "Gender: ",
+    "last_update: ": "Last updated: "
   },
   "attributes_value": {
     "male": "male",
