@@ -55,6 +55,10 @@ export class BoilerplateCardEditor extends LitElement implements LovelaceCardEdi
     return this._config?.show_attributes || false;
   }
 
+  get show_datetime_last(): boolean {
+    return this._config?.show_datetime_last || false;
+  }
+
   get _show_body(): boolean {
     if (this._show_toolbar === false) {
       return false;
@@ -186,6 +190,21 @@ export class BoilerplateCardEditor extends LitElement implements LovelaceCardEdi
           >
           </ha-switch>
           ${localize('editor.show_attributes')}
+        </p>
+        
+        <p class="option">
+          <ha-switch
+            aria-label=${localize(
+              this._show_datetime_last
+                ? 'editor.show_datetime_last_aria_label_off'
+                : 'editor.show_datetime_last_aria_label_on'
+            )}
+            .checked=${this._show_datetime_last !== false}
+            .configValue=${'show_datetime_last'}
+            @change=${this._valueChanged}
+          >
+          </ha-switch>
+          ${localize('editor.show_datetime_last')}
         </p>
 
         <strong style="font-size: large; line-height: 200%;">

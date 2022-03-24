@@ -67,6 +67,7 @@ export class BodyMiScaleCard extends LitElement implements LovelaceCard {
       show_name: config.show_name,
       show_states: config.show_states,
       show_attributes: config.show_attributes,
+      show_datetime_last: config.show_datetime_last,
       show_body: config.show_body,
       show_buttons: config.show_buttons,
       show_toolbar: config.show_toolbar,
