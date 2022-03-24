@@ -17,6 +17,7 @@ export interface BodyMiScaleCardConfig extends LovelaceCardConfig {
   show_attributes?: boolean;
   show_body?: boolean;
   show_buttons?: boolean;
+  show_datetime_last?: boolean;
   show_toolbar?: boolean;
   styles: {
     background: string;
