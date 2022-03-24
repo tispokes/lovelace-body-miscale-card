@@ -38,6 +38,10 @@ export const attributes_kg = {
     key: 'gender',
     label: localize(`attributes.${'gender: '}`),
   },
+  last_update: {
+    key: 'last_update',
+    label: localize(`attributes.${'last_update: '}`),
+  },
 };
 
 export const attributes_lb = {
@@ -64,6 +68,10 @@ export const attributes_lb = {
   gender: {
     key: 'gender',
     label: localize(`attributes.${'gender: '}`),
+  },
+  last_update: {
+    key: 'last_update',
+    label: localize(`attributes.${'last_update: '}`),
   },
 };
 
@@ -728,6 +736,7 @@ export const models = {
       height: { key: 'height' },
       age: { key: 'age' },
       gender: { key: 'gender' },
+      last_update: { key: 'last_update' },
     },
     attributes_lb: {
       weight: { 
@@ -738,6 +747,7 @@ export const models = {
       height: { key: 'height' },
       age: { key: 'age' },
       gender: { key: 'gender' },
+      last_update: { key: 'last_update' },
     },
     body_kg: {
       bmi: { key: 'bmi' },
@@ -788,6 +798,7 @@ export const models = {
       height: { key: 'height' },
       age: { key: 'age' },
       gender: { key: 'gender' },
+      last_update: { key: 'last_update' },
     },
     attributes_lb: {
       weight: { 
@@ -798,6 +809,7 @@ export const models = {
       height: { key: 'height' },
       age: { key: 'age' },
       gender: { key: 'gender' },
+      last_update: { key: 'last_update' },
     },
     body_kg: {
       bmi: { key: 'bmi' },
